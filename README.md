@@ -1,4 +1,4 @@
-# Indigg Library Management System
+# Library Management System
 
 This project involves the development of a robust backend API for an Library Management System application. The primary focus of the project is on the logic and functionality that powers the Library Management platform and the backend's routes, use cases, and careful consideration of edge cases are crucial for building a reliable and functional Library Management System. This backend can later be integrated with various frontend platforms to create a complete Library Management solution.
 
@@ -6,14 +6,10 @@ This project involves the development of a robust backend API for an Library Man
 ## Deployed Link
 
 ```bash
-   https://indigg-library-managment-system.onrender.com
+   https://books-ey4s.onrender.com
 ```
 
-## API Documentation Swagger
 
-```bash
- https://indigg-library-managment-system.onrender.com/api-docs
-```
 
 ## Key Features
 
@@ -27,7 +23,7 @@ This project involves the development of a robust backend API for an Library Man
 
 ## Tech Stack
 
-- Backend: Node.js
+- Backend: Node.js, TypeScript
 
 
 ## Getting Started
@@ -72,17 +68,4 @@ User Login: POST /auth/login
 Create a Book: POST /books
 Read a Book: GET /books
 Read all Existing Books: GET /serach
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
