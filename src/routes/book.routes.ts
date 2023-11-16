@@ -10,8 +10,8 @@ bookRouter.get('/', authenticateToken, async (req: Request, res: Response) => {
     const userRoles = (req.user as any)?.roles || [];
     let books: BookDocument[] = [];
 
-    if (userRoles.includes('VIEW ALL')) {
-      books = await Book.find();
+    if (userRoles.includes('VIEW_ALL')) {
+      books = await Book.find({});
     } else if (userRoles.includes('VIEWER')) {
       books = await Book.find({ createdBy: (req.user as any)?._id });
     }
